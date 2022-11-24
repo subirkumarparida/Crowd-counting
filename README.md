@@ -9,8 +9,7 @@ Impleamentation of "CSRNet: Dilated convolutional neural networks for understand
 Shanghai Tech dataset consisting of two sub-divided datasets: Shanghai_Tech_part_A (densely populated crowd), and Shanghai_Tech_part_B (sparsely populated crowd)
 
 # Data Preprocessing
-
-The primary task is to convert the ground truth provided by the Shanghai Tech dataset into density maps. For a given image the dataset provided a sparse matrix consisting of the head annotations in that image. This sparse matrix was converted into a 2D density map by passing through a Gaussian Filter. The sum of all the cells in the density map results in the actual count of people in that particular image. 
+The primary task is to transform the ground truth provided by Shanghai Tech into density maps. A sparse matrix of head annotations was provided for each image in the dataset. By passing this sparse matrix through a Gaussian Filter, a 2D density map has been generated. Based on the density map, the actual count of people in the image is the sum of all the cells.
 
 # Model
 
