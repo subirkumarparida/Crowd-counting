@@ -13,7 +13,7 @@ The primary task is to transform the ground truth provided by Shanghai Tech into
 
 # Model
 
-The CSRNet model uses Convolutional Neural Networks to map the input image to it's respective density map. The model does not make use of any fully connected layers and thus the size of the input image is variable. The model architecture is divided into two parts, front-end and back-end. The front-end consists of 13 pretrained layers of the VGG16 model (10 Convolution layers and 3 MaxPooling layers). The fully connected layers of the VGG16 are not taken. The back-end comprises of Dilated Convolution layers. The dilation rate at which maximum accuracy was obtained was experimentally found out be 2 as suggested in the CSRNet paper.
+The CSRNet model maps the input image to its density map using Convolutional Neural Networks. In this model, no fully connected layers are used, so the input image size can vary. A model architecture is broken up into two parts: front-end and back-end. The front end consists of 13 pre-trained layers of the VGG16 model (10 Convolution layers and 3 MaxPooling layers). The fully connected layers of the VGG16 are not used in CSRNet. The back-end comprises Dilated Convolution layers. Experimentally, the dilation rate was found to be two, at which maximum accuracy was obtained.
 
 # Results
 
