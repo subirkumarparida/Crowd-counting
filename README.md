@@ -1,4 +1,4 @@
-# GNR-638: Course Project
+# GNR-638: Machine Learning-II for Remote Sensing - Course Project
 
 Problem Statement: Crowd counting using deep convolutional neural networks in sparse and densely congested scenarios.
 
@@ -19,4 +19,5 @@ The CSRNet model uses Convolutional Neural Networks to map the input image to it
 # Results
 
 Shanghai_Tech_part_A MAE: 250
+
 Shanghai_Tech_part_B MAE: 65.25
