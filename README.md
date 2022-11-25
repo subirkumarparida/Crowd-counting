@@ -6,7 +6,9 @@ Implementation of "CSRNet: Dilated convolutional neural networks for understandi
 
 # File Descriptions
 
-- a
+- Shanghai_Tech: 
+- CSRNet_1.ipynb: 
+- CSRNet_1.ipynb: 
 
 # Dataset
 
@@ -22,6 +24,6 @@ The CSRNet model maps the input image to its density map using Convolutional Neu
 
 # Results
 
-#### - Shanghai_Tech_part_A MAE: 250
+- #### Shanghai_Tech_part_A MAE: 250
 
-#### - Shanghai_Tech_part_B MAE: 65.25
+- #### Shanghai_Tech_part_B MAE: 65.25
