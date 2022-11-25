@@ -4,11 +4,11 @@
 
 Implementation of "CSRNet: Dilated convolutional neural networks for understanding the highly congested scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 1091–1100, 2018."
 
-# File Descriptions
+# File Structure
 
-- Shanghai_Tech: 
-- CSRNet_1.ipynb: 
-- CSRNet_1.ipynb: 
+- Shanghai_Tech: The Shanghai Tech dataset consisting of part_A and part_B datasets
+- CSRNet_1.ipynb: The CSRNet model trained and tested on the Shanghai_Tech part_A dataset
+- CSRNet_1.ipynb: The CSRNet model trained and tested on the Shanghai_Tech part_B dataset
 
 # Dataset
 
