@@ -12,7 +12,9 @@ Implementation of "CSRNet: Dilated convolutional neural networks for understandi
 
 # Dataset
 
-Shanghai Tech dataset consisting of two sub-datasets: Shanghai_Tech_part_A (densely populated crowd), and Shanghai_Tech_part_B (sparsely populated crowd)
+Shanghai Tech dataset consisting of two sub-datasets: 
+- Shanghai_Tech_part_A (densely populated crowd), and 
+- Shanghai_Tech_part_B (sparsely populated crowd)
 
 # Data Pre-processing
 
