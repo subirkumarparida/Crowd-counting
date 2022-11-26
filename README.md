@@ -20,15 +20,12 @@ Shanghai Tech dataset consisting of two sub-datasets:
 
 <p align="left">
   <img src="https://user-images.githubusercontent.com/42779970/204106360-d32702be-fbd0-4485-932e-8ce4f5495795.jpg" width="280" height="280" title="Image">
-  <img src="https://user-images.githubusercontent.com/42779970/204106739-8c8174a2-360d-4384-9955-9a3b113840cf.jpg" width="280" height="280" title="Density Map" alt="Density Map">
-  #Persons = XX 
+  </p>
+  
+  <p align="left">
+  <img src="https://user-images.githubusercontent.com/42779970/204106739-8c8174a2-360d-4384-9955-9a3b113840cf.jpg" width="280" height="280" title="Image">
   </p>
 
-<p align="left">
-  <img src="https://user-images.githubusercontent.com/42779970/204106840-d4a39f6c-6dd0-4324-87d1-91f4cc9c9d7a.jpg" width="280" height="280" title="Image">
-  <img src="https://user-images.githubusercontent.com/42779970/204106845-23a12b12-8663-40ff-bacc-339f026ee252.jpg" width="280" height="280" title="Density Map" alt="Density Map">
-  #Persons = XX 
-</p>
 
 # Data Pre-processing
 
@@ -44,4 +41,23 @@ The CSRNet model maps the input image to its density map using Convolutional Neu
 
 - #### Shanghai_Tech_part_B MAE: 65.25
 
-### The model is trained on a Nvidia GeForce GTX TITAN X 12GB RAM GPU.
+#### The model is trained on a Nvidia GeForce GTX TITAN X 12GB RAM GPU.
+
+- #Persons = 370
+<p style="text-align:center">
+  <img src="https://user-images.githubusercontent.com/42779970/204108740-c9f5fd30-96c5-455b-925f-ad2e7b7d308b.jpg" width="360" height="360" title="Image" alt="Check">
+  <img src="https://user-images.githubusercontent.com/42779970/204108759-5491478a-8241-42a6-9b03-3e4912aa14b2.jpg" width="360" height="360" title="Density Map" alt="Density Map">
+  </p>
+
+- #Persons = 2256
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/42779970/204108744-2d9a5167-866e-461f-adfe-a38e31e5cf14.jpg" width="360" height="360" title="Image">
+  <img src="https://user-images.githubusercontent.com/42779970/204108765-095b8ec1-85ba-443e-9125-caecc8f59340.jpg" width="360" height="360" title="Density Map" alt="Density Map">
+</p>
+
+
+- #Persons = 748
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/42779970/204108747-aca39f6f-451e-4175-8f9e-0436d891b2ce.jpg" width="360" height="360" title="Image">
+  <img src="https://user-images.githubusercontent.com/42779970/204108769-ecdc2501-1c65-4f4e-8c01-2939258e3782.jpg" width="360" height="360" title="Density Map" alt="Density Map">
+</p>
