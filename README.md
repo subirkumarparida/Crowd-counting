@@ -31,3 +31,6 @@ The CSRNet model maps the input image to its density map using Convolutional Neu
 - #### Shanghai_Tech_part_B MAE: 65.25
 
 ### The model is trained on a Nvidia GeForce GTX TITAN X 12GB RAM GPU.
+
+![IMG_9](https://user-images.githubusercontent.com/42779970/204106360-d32702be-fbd0-4485-932e-8ce4f5495795.jpg)
+
