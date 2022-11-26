@@ -16,6 +16,18 @@ Shanghai Tech dataset consisting of two sub-datasets:
 - Shanghai_Tech_part_A (densely populated crowd), and 
 - Shanghai_Tech_part_B (sparsely populated crowd)
 
+#### Sample Images:
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/42779970/204106360-d32702be-fbd0-4485-932e-8ce4f5495795.jpg" width="280" height="280">
+  <img src="https://user-images.githubusercontent.com/42779970/204106739-8c8174a2-360d-4384-9955-9a3b113840cf.jpg" width="280" height="280">
+  </p>
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/42779970/204106840-d4a39f6c-6dd0-4324-87d1-91f4cc9c9d7a.jpg" width="350" title="Image">
+  <img src="https://user-images.githubusercontent.com/42779970/204106845-23a12b12-8663-40ff-bacc-339f026ee252.jpg" width="350" alt="Density Map">
+</p>
+
 # Data Pre-processing
 
 The primary task is to transform the ground truth provided by Shanghai Tech into density maps. The target output of the dataset is given in the form of a sparse matrix of head annotations for each image in the dataset. By passing this sparse matrix through a Gaussian Filter, a 2D density map is generated. Based on the density map, the actual count of people in the image is the sum of all the cells.
@@ -31,6 +43,3 @@ The CSRNet model maps the input image to its density map using Convolutional Neu
 - #### Shanghai_Tech_part_B MAE: 65.25
 
 ### The model is trained on a Nvidia GeForce GTX TITAN X 12GB RAM GPU.
-
-![IMG_9](https://user-images.githubusercontent.com/42779970/204106360-d32702be-fbd0-4485-932e-8ce4f5495795.jpg)
-
