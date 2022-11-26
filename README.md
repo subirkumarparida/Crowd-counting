@@ -19,13 +19,15 @@ Shanghai Tech dataset consisting of two sub-datasets:
 #### Sample Images:
 
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/42779970/204106360-d32702be-fbd0-4485-932e-8ce4f5495795.jpg" width="280" height="280">
-  <img src="https://user-images.githubusercontent.com/42779970/204106739-8c8174a2-360d-4384-9955-9a3b113840cf.jpg" width="280" height="280">
+  <img src="https://user-images.githubusercontent.com/42779970/204106360-d32702be-fbd0-4485-932e-8ce4f5495795.jpg" width="280" height="280" title="Image">
+  <img src="https://user-images.githubusercontent.com/42779970/204106739-8c8174a2-360d-4384-9955-9a3b113840cf.jpg" width="280" height="280" title="Density Map" alt="Density Map">
+  #Persons = XX 
   </p>
 
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/42779970/204106840-d4a39f6c-6dd0-4324-87d1-91f4cc9c9d7a.jpg" width="350" title="Image">
-  <img src="https://user-images.githubusercontent.com/42779970/204106845-23a12b12-8663-40ff-bacc-339f026ee252.jpg" width="350" alt="Density Map">
+  <img src="https://user-images.githubusercontent.com/42779970/204106840-d4a39f6c-6dd0-4324-87d1-91f4cc9c9d7a.jpg" width="280" height="280" title="Image">
+  <img src="https://user-images.githubusercontent.com/42779970/204106845-23a12b12-8663-40ff-bacc-339f026ee252.jpg" width="280" height="280" title="Density Map" alt="Density Map">
+  #Persons = XX 
 </p>
 
 # Data Pre-processing
