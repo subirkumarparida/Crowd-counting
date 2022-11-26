@@ -34,5 +34,8 @@ The CSRNet model maps the input image to its density map using Convolutional Neu
 
 # Dataset
 
-![Image](https://github.com/subirkumarparida/Crowd-counting/blob/main/Shanghai_Tech/ShanghaiTech/part_A/test_data/images/IMG_165.jpg?raw=true)
+<p align="center">
+  <img src="[your_relative_path_here](https://github.com/subirkumarparida/Crowd-counting/blob/main/Shanghai_Tech/ShanghaiTech/part_A/test_data/images/IMG_165.jpg)" width="350" title="hover text">
+  <img src="[your_relative_path_here_number_2_large_name](https://github.com/subirkumarparida/Crowd-counting/blob/main/Shanghai_Tech/ShanghaiTech/part_A/test_data/images/IMG_165.jpg)" width="350" alt="accessibility text">
+</p>
 
